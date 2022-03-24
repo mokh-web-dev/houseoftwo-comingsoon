@@ -70,7 +70,6 @@ body {
 .header {
   width: 100%;
   text-align: center;
-  margin-top: 10rem;
 }
 
 h1 {
@@ -82,6 +81,7 @@ h1 {
 
 h2 {
   font-family: 'diamond_ringhairline', sans-serif;
+  color: black;
   font-size: 5rem;
   font-weight: 200;
   margin: 0 2rem;
@@ -98,18 +98,12 @@ h2 {
   padding: 0 4rem;
 }
 
-.es {
-  margin: 0 0 1rem;
-}
-
-.td {
-  margin: 1rem 0 0;
-}
-
+.es,
 .twenty {
   margin: 0 0 1rem;
 }
 
+.td,
 .twentytwo {
   margin: 1rem 0 0;
 }
@@ -127,7 +121,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   border-left: 1px solid black;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 .middle-estd {
@@ -187,9 +181,8 @@ h2 {
   h2 {
     font-size: 3rem;
   }
-
   .coming-soon-text {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .established {
@@ -213,10 +206,20 @@ h2 {
 
   .coming-soon-mobile-text {
     display: block;
+    font-size: 2rem;
   }
 
   .established {
     font-size: 1.1rem;
     margin: 8rem 0;
+  }
+
+  .es,
+  .twenty {
+    margin: 0 0 0.5rem;
+  }
+
+  .twenty {
+    margin: 0 0 0.5rem;
   }
 }
